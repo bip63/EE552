@@ -1,1 +1,7 @@
+JDK stands for Java Development Kit. JDK contains offers more software tools that allow us to actually write, compile, debug programs alongside with being able to run them.
+JRE stands for Java Runtime Environment. JRE contains all the java language API, class libraries, and it allows us to run java applications.
+JVM stands for Java Virtual Machine. JVM essentially allows us to write programs that speak to our machines. It translates java programming and bytecode into machine language.
 
+The JDK, JRE, and JVM are essentialy building blocks for each other. The JRE contains the JVM. The JDK contains the JRE meaning it also incorporates the JVM. The JDK can write and compile java programs written on any type of machine since java language is the same everywhere. The java program is then run by the JRE which is translated into machine language by the JVM. The JVM is readily available on several different operating systems so the same files written on say Windows can also be run on Linux.
+
+If you are starting fresh, you need to JDK to first write the code for the Hello World Program and then compile it. If you already have the program files compiled and written in java language, then you only need the JRE to run the program. If the java program is already translated to java bytecode, then you only need the JVM to run it.
