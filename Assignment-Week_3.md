@@ -22,3 +22,6 @@ System.out.println("Hello World!"); // Display the string.
 }
 ```
 If you are starting fresh, you need to JDK to first write the code for the Hello World Program and then compile it. If you already have the program files compiled and written in java language, then you only need the JRE to run the program. If the java program is already translated to java bytecode, then you only need the JVM to run it.
+
+
+How are exceptions handled between the JDK, JRE, and JVM? For example, If you are writing code and you run into an exception, is it caught by the JDK before being run by the JRE? Likewise, if you have a java application that contains errors and exceptions, is it caught by the JRE before it reaches the JVM? And if exceptions do reach the JVM how are they handled?
